@@ -1,7 +1,11 @@
+package products;
 import java.lang.String;
 
 public class Automobile extends Product {
-	private String Name;
+	public Automobile()
+	{
+		super.Name = "Automobile";
+	}
 	public void ride() {
 	
 	}

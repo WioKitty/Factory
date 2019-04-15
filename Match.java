@@ -1,6 +1,11 @@
+package products;
 
 public class Match extends Product{
-private int lenght;
+	public Match()
+	{
+		super.Name = "Match";
+	}
+private int Lenght;
 private boolean isFired = false;
 public void fire() {
 	isFired = true;
